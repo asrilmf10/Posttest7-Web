@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+/* Bagian Header */
+.header {
+    height: 30px;
+    background-color: #00DEFF;
+    border: 2px solid black;
+}
+.h-list {
+    overflow: hidden;
+}
+.h-list a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.h-list a:hover {
+    color: white;
+}
+.h-list a.aboutMe {
+    background-color: #00ABE0;
+    color: white;
+}
+/* Bagian Navbar */
+.navbar {
+    height: 90px;
+    background-color: #00ABE0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.n-logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    text-align: center;
+    line-height: 1px;
+}
+.teks {
+    font-size: 10px;
+}
+button {
+    cursor: pointer;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 10px;
+}
+/* Bagian Main-Content */
+.main {
+    height: 350px;
+    background-color: #E6F4F1;
+    border: 2px solid black;
+}
+.biodata {
+    float: left;
+    padding: 4px 20px;
+}
+.profil {
+    border: 2px solid black;
+}
+.material-icons {
+    padding: 25px 45px;
+}
+/* Bagian Footer */
+.footer {
+    height: 35px;
+    background-color: #DC751E;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.f-teks {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 10px;
+    color: black;
+}
+/* Bagian Dark Mode */
+.dark-mode {
+    background-color: black;
+    color: gainsboro;
+}
+.dark-mode .header {
+    border: 2px solid white;
+}
+.dark-mode .h-list a {
+    color: white;
+}
+.dark-mode .h-list a:hover {
+    color: black;
+}
+.dark-mode .h-list a.aboutMe {
+    color: black;
+}
+.dark-mode .navbar {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.dark-mode .main {
+    background-color: black;
+    border: 2px solid white;
+}
+.dark-mode .profil {
+    border: 2px solid white;
+}
+.dark-mode .footer {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.dark-mode .f-teks {
+    color: white;
+}
